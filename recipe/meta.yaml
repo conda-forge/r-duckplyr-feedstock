@@ -28,10 +28,13 @@ requirements:
     - r-cli
     - r-collections
     - r-dplyr >=1.1.4
-    - r-duckdb >=0.10.2
+    - r-duckdb >=1.2.0
     - r-glue
     - r-jsonlite
     - r-lifecycle
+    - r-magrittr
+    - r-memoise
+    - r-pillar >=1.10.1
     - r-rlang >=1.0.6
     - r-tibble
     - r-tidyselect
@@ -42,10 +45,13 @@ requirements:
     - r-cli
     - r-collections
     - r-dplyr >=1.1.4
-    - r-duckdb >=0.10.2
+    - r-duckdb >=1.2.0
     - r-glue
     - r-jsonlite
     - r-lifecycle
+    - r-magrittr
+    - r-memoise
+    - r-pillar >=1.10.1
     - r-rlang >=1.0.6
     - r-tibble
     - r-tidyselect
