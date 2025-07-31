@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/duckplyr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/duckplyr/duckplyr_{{ version }}.tar.gz
-  sha256: de3ebbb35b2fe4044df0d99808e992544e8d365f0426946a1f8e1f54a7d588b2
+  sha256: 71c9e60f4b6e4c7ea86c6b94531019d2bc938d33ea6f7e9d74c17bf6b84e890e
 
 build:
   number: 0
@@ -28,13 +28,13 @@ requirements:
     - r-cli
     - r-collections
     - r-dplyr >=1.1.4
-    - r-duckdb >=1.2.0
+    - r-duckdb >=1.2.2
     - r-glue
     - r-jsonlite
     - r-lifecycle
     - r-magrittr
     - r-memoise
-    - r-pillar >=1.10.1
+    - r-pillar >=1.10.2
     - r-rlang >=1.0.6
     - r-tibble
     - r-tidyselect
@@ -45,13 +45,13 @@ requirements:
     - r-cli
     - r-collections
     - r-dplyr >=1.1.4
-    - r-duckdb >=1.2.0
+    - r-duckdb >=1.2.2
     - r-glue
     - r-jsonlite
     - r-lifecycle
     - r-magrittr
     - r-memoise
-    - r-pillar >=1.10.1
+    - r-pillar >=1.10.2
     - r-rlang >=1.0.6
     - r-tibble
     - r-tidyselect
