@@ -1,4 +1,4 @@
-{% set version = "1.1.3" %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/duckplyr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/duckplyr/duckplyr_{{ version }}.tar.gz
-  sha256: 0ec75e71c2c9602d892e4135f6867083c2a565ad3600c0e86af025f73509e24a
+  sha256: 531c021e02590457fb229558b081cec9ab3cc6189c2ec7b5c47bca14595d5dbe
 
 build:
   number: 0
